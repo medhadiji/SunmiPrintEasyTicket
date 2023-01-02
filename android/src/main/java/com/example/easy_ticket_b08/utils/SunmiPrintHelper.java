@@ -491,9 +491,7 @@ public class SunmiPrintHelper {
                 sunmiPrinterService.printBitmap(bitmap, null);
             }else{
                 sunmiPrinterService.printBitmap(bitmap, null);
-                sunmiPrinterService.printText("\n纵向排列\n", null);
-                sunmiPrinterService.printBitmap(bitmap, null);
-                sunmiPrinterService.printText("\n纵向排列\n", null);
+           
             }
         } catch (RemoteException e) {
             e.printStackTrace();
